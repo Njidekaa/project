@@ -1,0 +1,124 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/*Using Grid layout to setup the framework of the design*/
+
+.layout {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 100vh;
+}
+.layout-one {
+  background-color: rgb(27, 27, 36);
+  grid-column-start: span 1;
+  color: white;
+}
+.layout-two {
+  grid-column-start: span 3;
+}
+.intro {
+  margin-left: 2rem;
+}
+
+.outline {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  height: 40vh;
+  width: 15rem;
+  margin-left: 2rem;
+}
+.outline-1 {
+  grid-column-start: span 1;
+}
+/* Trying out styling for tables
+table, td{
+    /* border: none; */
+/* vertical-align: top;
+}
+li{
+    text-decoration: none;
+
+} */
+
+/* styling for settings layout using grid */
+
+.setting-layout {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 100vh;
+}
+
+.setting-layout1 {
+  background-color: rgb(31, 26, 26);
+  grid-column-start: span 1;
+  color: white;
+}
+
+.setting-layout2 {
+  background-color: rgb(31, 26, 26);
+  grid-column-start: span 2;
+  color: white;
+}
+/* Styling for the plan section */
+
+.level {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.level-one {
+  grid-column-start: span 1;
+}
+
+.level-two {
+  grid-column-start: span 1;
+}
+
+.sub-level-one,
+.sub-level-two,
+.auto-renew1 {
+  display: flex;
+  width: 100%;
+}
+
+.sub-level-one2 {
+  margin-left: 7rem;
+}
+.icon {
+  margin-left: 27rem;
+}
+.auto-renew {
+  margin-top: 2rem;
+}
+
+/* Styling for card section */
+.card-zone{
+    margin-top: 2rem;
+}
+.card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card-one {
+  grid-column-start: span 1;
+}
+.card-two {
+  grid-column-start: span 1;
+}
+.card-three {
+  grid-column-start: span 1;
+}
+
+/* Styling the table section */
+.history{
+    margin-top: 4rem;
+}
+table{
+    border: none;
+    width: 100%;
+}

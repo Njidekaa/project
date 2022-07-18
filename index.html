@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Use grid in the first layout. -->
+
+    <section class="layout">
+      <div class="layout-one">
+        <div class="logo">
+          <h2><img src="#" alt="logo" />Prodktiv</h2>
+          <!-- adding the options sign in the picture and flexing it -->
+        </div>
+
+        <br />
+        <br />
+        <p class="intro">
+          Welcome Scarlett, <br />
+          Get prodktiv today!
+        </p>
+        <br />
+        <br />
+        <div class="outline">
+          <div>
+            <img src="#" alt="calender" class="outline-1" />
+            <p>Calender</p>
+          </div>
+
+          <div>
+            <img src="#" alt="milestones" class="outline-1" />
+            <p>Milestones</p>
+          </div>
+
+          <div>
+            <img src="#" alt="goals" class="outline-1" />
+            <p>Goals</p>
+          </div>
+
+          <div>
+            <img src="#" alt="analytics" class="outline-1" />
+            <p>Analytics</p>
+          </div>
+
+          <div>
+            <img src="#" alt="activities" class="outline-1" />
+            <p>Activities</p>
+          </div>
+
+          <div>
+            <img src="#" alt="settings" class="outline-1" />
+            <p>Settings</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- used grid in the 2nd layout structuring -->
+      <!-- used grid to arrange the box and card structures -->
+      <!-- Used flex to arrange the internal segment -->
+
+      <div class="layout-two">
+        <div class="setting-layout">
+          <div class="setting-layout1">
+            <h2>Settings</h2>
+
+            <ul>
+              <li>Subscription</li>
+              <li>Activity</li>
+              <li>Personal Info</li>
+              <li>Security</li>
+              <li>Employment</li>
+            </ul>
+          </div>
+          <div class="setting-layout2">
+            <h4>Plan</h4>
+            <div class="level">
+              <div class="level-one">
+                <div class="sub-level-one">
+                  <div class="sub-level-one1">
+                    <h3>Beginner</h3>
+                    <p>36 days remaining</p>
+                    <button>Cancel Subscription</button>
+                  </div>
+                  <div class="sub-level-one2">
+                    <h3>$10/month</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="level-two">
+                <div class="sub-level-two">
+                  <div class="sub-level-two1">
+                    <h3>Professional</h3>
+                    <p>365 days</p>
+                    <p><button>Upgrade</button> Learn more about this plan</p>
+                  </div>
+                  <div class="sub-level-two2">
+                    <h3>$48/month</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- arranging the 2nd part using flex -->
+
+            <div class="auto-renew">
+              <div class="auto-renew1">
+                <h4>Enable auto renew</h4>
+                <button class="icon">clickable button</button>
+              </div>
+              <p>
+                This options; if checked, will renew your productive
+                subscription, if the current plan expires. However, this might
+                prevent you from
+              </p>
+            </div>
+
+            <!-- Arranging the 3rd segment using grid layout -->
+            <div class="card-zone">
+              <h3>Payment Method</h3>
+              <div class="card">
+                <div class="card-one">
+                  <p>Credit Card</p>
+                  <p><img src="" alt="master card" /> **** **** ****3542</p>
+                  <img src="" alt="neg-pic" />
+                </div>
+                <div class="card-two">
+                  <p>Debit Card</p>
+                  <p><img src="" alt="visa card" /> **** **** ****1543</p>
+                  <img src="" alt="neg-pic" />
+                </div>
+                <div class="card-three">
+                  <img src="" alt="plus sign" />
+                </div>
+              </div>
+            </div>
+
+            <!-- Arranging the last segment using tables -->
+            <div class="history">
+              <h3>Billing History</h3>
+              <table>
+                <tr>
+                  <td>DATE</td>
+                  <td>DETAILS</td>
+                  <td>AMOUNT</td>
+                  <td>DOWNLOAD</td>
+                </tr>
+                <tr>
+                  <td>08/07/2021</td>
+                  <td>Beginner plan, monthly</td>
+                  <td>$30.00</td>
+                  <td>Invoice 08 July 21</td>
+                </tr>
+                <tr>
+                  <td>07/06/2021</td>
+                  <td>Beginner plan, monthly</td>
+                  <td>$30.00</td>
+                  <td>Invoice 07 June 21</td>
+                </tr>
+                <tr>
+                  <td>04/05/2021</td>
+                  <td>Beginner plan, monthly</td>
+                  <td>$30.00</td>
+                  <td>Invoice 06 May 21</td>
+                </tr>
+              </table>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

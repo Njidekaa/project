@@ -20,7 +20,7 @@
   grid-column-start: span 3;
 }
 .intro {
-  margin-left: 2rem;
+  margin-left: 4rem;
   color: #b0b1b2;
 }
 
@@ -31,6 +31,7 @@
   height: 40vh;
   width: 15rem;
   margin-left: 2rem;
+  text-align: center;
 }
 .outline-1 {
   grid-column-start: span 1;
@@ -78,7 +79,8 @@ li{
 }
 
 .icon {
-  margin-left: 27rem;
+  margin-left: 30rem;
+  color: rgb(98, 129, 196);
 }
 .auto-renew {
   margin-top: 2rem;

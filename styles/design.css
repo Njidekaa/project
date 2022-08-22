@@ -5,11 +5,15 @@
     margin-top: 3rem;
 }
 .logo-one{
-    margin-left: 2rem;
+    margin-left: 3rem;
 }
 .logo-label{
     margin-left: 0.5rem;
     color: #eff1f3;
+}
+#icon-logo{
+    padding: 5px;
+    color: blue;
 }
 .select{
     margin-left: 5rem;
@@ -37,8 +41,37 @@ p{
 .intro{
     margin-top: 3rem;
 }
-.cal{
+#cal{
     background-color: rgb(56, 51, 59);
+    color: rgb(129, 27, 212);
+    padding: 15px;
+}
+#ana{
+    color: rgb(228, 9, 111);
+    background-color:  rgb(56, 51, 59);
+    padding: 15px;
+}
+#mile{
+    color: rgb(9, 228, 144);
+    background-color:  rgb(56, 51, 59);
+    padding: 15px;
+}
+#goal{
+    color: rgb(228, 60, 9);
+    background-color:  rgb(56, 51, 59);
+    padding: 15px;
+}
+#act{
+    color:rgb(98, 129, 196);
+    background-color:  rgb(56, 51, 59);
+    padding: 15px;
+
+}
+#set{
+    color: rgb(31, 29, 29);
+    background-color: rgb(45, 148, 179);
+    padding: 15px;
+    border: 5px solid rgb(56, 51, 59);
 }
 
 /* styling for the settings  */

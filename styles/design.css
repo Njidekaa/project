@@ -1,0 +1,121 @@
+/* Logo styling */
+
+.logo{
+    display: flex;
+    margin-top: 3rem;
+}
+.logo-one{
+    margin-left: 2rem;
+}
+.logo-label{
+    margin-left: 0.5rem;
+    color: #eff1f3;
+}
+.select{
+    margin-left: 5rem;
+    margin-top: 0.2rem;
+    
+}
+.top-icon{
+    width: 20px;
+    height: 1px;
+    margin-left: 0.6rem;
+    background-color: rgb(224, 217, 217);
+}
+.sec-icon{
+    width: 30px;
+    height: 1px;
+    margin: 6px 0;
+    background-color: white;
+}
+
+p{
+    color: #b0b1b2;
+}
+/* Intro styling and other attributes */
+
+.intro{
+    margin-top: 3rem;
+}
+.cal{
+    background-color: rgb(56, 51, 59);
+}
+
+/* styling for the settings  */
+
+.settings{
+    margin-top: 3rem;
+    margin-left: 3rem;
+ }
+.settings-one{
+   margin-top: 1.5rem;
+   margin-left: 3rem;
+   color: #b0b1b2;
+}
+
+/* styling for the second settings layout */
+
+.setting-level{
+    margin-top: 7.5rem;
+}
+
+
+/* styling for the different levels */
+.sub-level-one{
+    border: 1px solid rgb(81, 119, 202);
+    padding: 10px;
+    border-radius: 5px;
+}
+.sub-level-two{
+    padding: 10px;
+    background-color: rgb(98, 129, 196);
+    border-radius: 5px;
+}
+.level-two{
+  margin-left: 1.5rem;
+}
+.days{
+    color: beige;
+}
+.upgrade{
+    padding: 7px;
+    color: rgb(98, 129, 196);
+    border: none;
+    border-radius: 5px;
+
+}
+.learn{
+    color: beige;
+    margin-top: 1rem;
+}
+
+.cancel{
+    margin-top: 1rem;
+    padding: 5px;
+    background-color: transparent;
+    border: 1px solid rgb(98, 129, 196);
+    color: rgb(98, 129, 196);
+    border-radius: 5px;
+}
+
+/*  Styling the auto renew segment */
+.autorenew{
+    margin-top: 1rem;
+}
+
+/* Styling the credit cards */
+
+.card-one{
+    border: 1px solid rgb(98, 129, 196);
+    padding: 10px;
+}
+
+.card-two, .card-three{
+    border: 1px solid rgb(79, 80, 82);
+    margin-left: 1rem;
+    padding: 10px;
+}
+.icon-neg{
+    margin-left: 10rem;
+    margin-top: 1rem;    
+}

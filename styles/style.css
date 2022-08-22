@@ -9,7 +9,7 @@
 .layout {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  height: 100vh;
+  height: 150vh;
 }
 .layout-one {
   background-color: rgb(27, 27, 36);
@@ -21,6 +21,7 @@
 }
 .intro {
   margin-left: 2rem;
+  color: #b0b1b2;
 }
 
 .outline {
@@ -34,48 +35,35 @@
 .outline-1 {
   grid-column-start: span 1;
 }
-/* Trying out styling for tables
-table, td{
-    /* border: none; */
-/* vertical-align: top;
-}
-li{
-    text-decoration: none;
 
-} */
 
 /* styling for settings layout using grid */
 
 .setting-layout {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  height: 100vh;
+  height: 150vh;
 }
 
 .setting-layout1 {
-  background-color: rgb(31, 26, 26);
+  background-color:rgb(44, 43, 49);
   grid-column-start: span 1;
   color: white;
 }
 
 .setting-layout2 {
-  background-color: rgb(31, 26, 26);
+  background-color: rgb(44, 43, 49);
   grid-column-start: span 2;
   color: white;
+}
+li{
+  list-style-type: none;
 }
 /* Styling for the plan section */
 
 .level {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.level-one {
-  grid-column-start: span 1;
-}
-
-.level-two {
-  grid-column-start: span 1;
+  display: flex;
+  margin-top: 1.5rem;
 }
 
 .sub-level-one,
@@ -86,8 +74,9 @@ li{
 }
 
 .sub-level-one2 {
-  margin-left: 7rem;
+  margin-left: 4rem;
 }
+
 .icon {
   margin-left: 27rem;
 }
@@ -97,23 +86,12 @@ li{
 
 /* Styling for card section */
 .card-zone{
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
-.card {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+.card{
+  display: flex;
+  margin-top: 1.5rem;
 }
-
-.card-one {
-  grid-column-start: span 1;
-}
-.card-two {
-  grid-column-start: span 1;
-}
-.card-three {
-  grid-column-start: span 1;
-}
-
 /* Styling the table section */
 .history{
     margin-top: 4rem;
@@ -121,4 +99,6 @@ li{
 table{
     border: none;
     width: 100%;
+    margin-top: 2rem;
+    text-align: center;
 }

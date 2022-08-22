@@ -5,7 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project</title>
-    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/design.css" />
+    <link rel="stylesheet" href="./styles/table.css" />
   </head>
   <body>
     <!-- Use grid in the first layout. -->
@@ -13,12 +20,19 @@
     <section class="layout">
       <div class="layout-one">
         <div class="logo">
-          <h2><img src="#" alt="logo" />Prodktiv</h2>
+          <div class="logo-one">
+            <img src="./images/logo.jpg" alt="logo" width="15px" />
+          </div>
+          <div>
+            <h3 class="logo-label">Prodktiv</h3>
+          </div>
           <!-- adding the options sign in the picture and flexing it -->
+          <div class="select">
+            <div class="top-icon"></div>
+            <div class="sec-icon"></div>
+            <div class="top-icon"></div>
+          </div>
         </div>
-
-        <br />
-        <br />
         <p class="intro">
           Welcome Scarlett, <br />
           Get prodktiv today!
@@ -27,7 +41,9 @@
         <br />
         <div class="outline">
           <div>
-            <img src="#" alt="calender" class="outline-1" />
+            <a href="#" class="cal"
+              ><i class="fa-solid fa-calendar-check"></i
+            ></a>
             <p>Calender</p>
           </div>
 
@@ -65,40 +81,42 @@
       <div class="layout-two">
         <div class="setting-layout">
           <div class="setting-layout1">
-            <h2>Settings</h2>
+            <h2 class="settings">Settings</h2>
 
             <ul>
-              <li>Subscription</li>
-              <li>Activity</li>
-              <li>Personal Info</li>
-              <li>Security</li>
-              <li>Employment</li>
+              <li class="settings">Subscription</li>
+              <li class="settings-one">Activity</li>
+              <li class="settings-one">Personal Info</li>
+              <li class="settings-one">Security</li>
+              <li class="settings-one">Employment</li>
             </ul>
           </div>
           <div class="setting-layout2">
-            <h4>Plan</h4>
-            <div class="level">
-              <div class="level-one">
-                <div class="sub-level-one">
-                  <div class="sub-level-one1">
-                    <h3>Beginner</h3>
-                    <p>36 days remaining</p>
-                    <button>Cancel Subscription</button>
-                  </div>
-                  <div class="sub-level-one2">
-                    <h3>$10/month</h3>
+            <div class="setting-level">
+              <h4>Plan</h4>
+              <div class="level">
+                <div class="level-one">
+                  <div class="sub-level-one">
+                    <div class="sub-level-one1">
+                      <h3 class="sub-one">Beginner</h3>
+                      <p>36 days remaining</p>
+                      <button class="cancel">Cancel Subscription</button>
+                    </div>
+                    <div class="sub-level-one2">
+                      <p>$10/month</p> 
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="level-two">
-                <div class="sub-level-two">
-                  <div class="sub-level-two1">
-                    <h3>Professional</h3>
-                    <p>365 days</p>
-                    <p><button>Upgrade</button> Learn more about this plan</p>
-                  </div>
-                  <div class="sub-level-two2">
-                    <h3>$48/month</h3>
+                <div class="level-two">
+                  <div class="sub-level-two">
+                    <div class="sub-level-two1">
+                      <h3 class="sub-two">Professional</h3>
+                      <p class="days">365 days</p>
+                      <p class="learn"><button class="upgrade">Upgrade</button> Learn more about this plan</p>
+                    </div>
+                    <div class="sub-level-two2">
+                      <h3>$48/month</h3>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -110,7 +128,7 @@
                 <h4>Enable auto renew</h4>
                 <button class="icon">clickable button</button>
               </div>
-              <p>
+              <p class="autorenew">
                 This options; if checked, will renew your productive
                 subscription, if the current plan expires. However, this might
                 prevent you from
@@ -118,18 +136,19 @@
             </div>
 
             <!-- Arranging the 3rd segment using grid layout -->
+            <!-- Flex layout seemed more suitable -->
             <div class="card-zone">
               <h3>Payment Method</h3>
               <div class="card">
                 <div class="card-one">
                   <p>Credit Card</p>
                   <p><img src="" alt="master card" /> **** **** ****3542</p>
-                  <img src="" alt="neg-pic" />
+                  <img src="" alt="neg-pic" class="icon-neg" />
                 </div>
                 <div class="card-two">
                   <p>Debit Card</p>
                   <p><img src="" alt="visa card" /> **** **** ****1543</p>
-                  <img src="" alt="neg-pic" />
+                  <img src="" alt="neg-pic" class="icon-neg" />
                 </div>
                 <div class="card-three">
                   <img src="" alt="plus sign" />
@@ -140,33 +159,32 @@
             <!-- Arranging the last segment using tables -->
             <div class="history">
               <h3>Billing History</h3>
-              <table>
-                <tr>
-                  <td>DATE</td>
-                  <td>DETAILS</td>
-                  <td>AMOUNT</td>
-                  <td>DOWNLOAD</td>
+              <table id="table1">
+                <tr id="row-one">
+                  <th>DATE</th>
+                  <th>DETAILS</th>
+                  <th>AMOUNT</th>
+                  <th>DOWNLOAD</th>
                 </tr>
                 <tr>
-                  <td>08/07/2021</td>
-                  <td>Beginner plan, monthly</td>
-                  <td>$30.00</td>
-                  <td>Invoice 08 July 21</td>
+                  <td class="space">08/07/2021</td>
+                  <td class="space">Beginner plan, monthly</td>
+                  <td class="space" id="first-money">$30.00</td>
+                  <td class="space" id="first-table">Invoice 08 July 21</td>
                 </tr>
                 <tr>
-                  <td>07/06/2021</td>
-                  <td>Beginner plan, monthly</td>
-                  <td>$30.00</td>
-                  <td>Invoice 07 June 21</td>
+                  <td class="space" >07/06/2021</td>
+                  <td class="space">Beginner plan, monthly</td>
+                  <td class="space" id="second-money">$30.00</td>
+                  <td class="space" id="second-table">Invoice 07 June 21</td>
                 </tr>
                 <tr>
-                  <td>04/05/2021</td>
-                  <td>Beginner plan, monthly</td>
-                  <td>$30.00</td>
-                  <td>Invoice 06 May 21</td>
+                  <td class="space">04/05/2021</td>
+                  <td class="space">Beginner plan, monthly</td>
+                  <td class="space" id="second-money">$30.00</td>
+                  <td class="space" id="last-table">Invoice 06 May 21</td>
                 </tr>
               </table>
-
             </div>
           </div>
         </div>
